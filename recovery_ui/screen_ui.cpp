@@ -564,27 +564,27 @@ void ScreenRecoveryUI::draw_foreground_locked() {
   }
 }
 
-/* Accent:  #0F3939 */
+/* Accent:  #FEDE8B */
 void ScreenRecoveryUI::SetColor(UIElement e) const {
   switch (e) {
     case UIElement::INFO:
-      gr_color(0x0f, 0x39, 0x39, 255);
+      gr_color(0xfe, 0xde, 0x8b, 255);
       break;
     case UIElement::HEADER:
-      gr_color(0x0f, 0x39, 0x39, 255);
+      gr_color(0xfe, 0xde, 0x8b, 255);
       break;
     case UIElement::MENU:
       gr_color(0xd8, 0xd8, 0xd8, 255);
       break;
     case UIElement::MENU_SEL_BG:
     case UIElement::SCROLLBAR:
-      gr_color(0x0f, 0x39, 0x39, 255);
+      gr_color(0xfe, 0xde, 0x8b, 255);
       break;
     case UIElement::MENU_SEL_BG_ACTIVE:
       gr_color(0, 156, 100, 255);
       break;
     case UIElement::MENU_SEL_FG:
-      gr_color(0x0f, 0x39, 0x39, 255);
+      gr_color(0x02, 0x01, 0x01, 255);
       break;
     case UIElement::LOG:
       gr_color(196, 196, 196, 255);
