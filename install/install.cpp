@@ -46,7 +46,6 @@
 #include <android-base/strings.h>
 #include <android-base/unique_fd.h>
 
-#include "install/package.h"
 #include "install/snapshot_utils.h"
 #include "install/spl_check.h"
 #include "install/wipe_data.h"
